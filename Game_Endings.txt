@@ -1,0 +1,8 @@
+f01: Your boss finds out you didn't start the report and fires you.
+f02: You spent too much time chatting. You don't finish your report.
+f03: Your boss frames you, and you're fired for stealing.
+f04: Malware is sent from your computer and infects the company's servers.
+f05: The company goes bankrupt and has to fire all of its employees.
+s01: You complete your report and survive to be fired another day.
+s02: The office gods have favored you. Your boss gives you more time.
+s03: Your boss is fired, and you're promoted for tipping off the higher-ups.
