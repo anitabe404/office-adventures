@@ -1,6 +1,6 @@
 require "tty-prompt"
 
-module TextGrabber
+module Helper
   def create_end_state_hash(filename)
     game_endings_hash = {}
     endings_file = open(filename)
@@ -37,12 +37,20 @@ module TextGrabber
   end
 
   def typewriter(text)
+    puts "\n"
     text.each_char {|c| print c; sleep 0.07}
     puts "\n"
   end
 
   def prompt
     TTY::Prompt.new
+  end
+
+  def press_enter
+    puts "\n"
+    print "(Press Enter to continue)"
+    $stdin.gets
+    puts "\n"
   end
 end
 
